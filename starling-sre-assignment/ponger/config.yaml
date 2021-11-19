@@ -1,0 +1,11 @@
+service:
+    port: 8080
+    protocol: https
+  # If the following are uncommented, then the server will operate over TLS
+    #tlsCertificate: server.crt
+    tlsCertificate: server4.crt
+    tlsPrivateKey: server.key
+
+metrics:
+  port: 2112
+  endpoint: "/metrics"

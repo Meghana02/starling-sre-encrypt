@@ -1,0 +1,8 @@
+ponger:
+  url: https://ponger:8080
+  # If uncommented, acceptCert will add
+  # the certificates listed in the file to
+  # the list of accepted certificates
+  #  acceptcert: server.crt
+
+  acceptCert: server4.crt
